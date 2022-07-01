@@ -1,0 +1,16 @@
+body {
+    color: black
+    ;background-color: lightblue;
+    font-family: monospace;
+}
+header {
+    outline-color: honeydew
+        ;background-color: lightpink;}
+h1 {color:aliceblue;}
+nav > ul {line-height: 3em;
+    list-style-type: none;
+    padding-left: 3px ;}
+section {;background-color: azure;
+        width: 60%;
+        font-size: 1.5em;}
+footer {;background-color: lightpink;}
