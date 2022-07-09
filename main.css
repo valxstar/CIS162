@@ -1,16 +1,35 @@
 body {
+     margin-left: auto;
+     margin-right: auto;
     color: black
     ;background-color: lightblue;
     font-family: monospace;
+} nav.horizontalNavigation li {
+       width: 33%;
+}
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
 }
 header {
     outline-color: honeydew
-        ;background-color: lightpink;}
+        ;background-color: skyblue;}
 h1 {color:aliceblue;}
-nav > ul {line-height: 3em;
+nav > ul {
     list-style-type: none;
-    padding-left: 3px ;}
-section {;background-color: azure;
-        width: 60%;
+    margin: 0;
+    padding: 0 ;
+}
+section {
+    ;background-color: azure;
+        width: 80%;
         font-size: 1.5em;}
+section#leftColumn {
+    float:left;
+    width: 50%;
+}
+section#rightColumn {
+    float:right;
+    width: 50%;
+}
 footer {;background-color: lightpink;}
